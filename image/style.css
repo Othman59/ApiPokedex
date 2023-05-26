@@ -1,0 +1,192 @@
+body{
+    background-color: #03276ae0;
+}
+
+main{
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid black;
+    padding: 2%;
+    background-color: #e3f2db4d;
+}
+
+.flex{
+    display: flex;
+}
+
+.image{
+    width: 15%;
+}
+
+.h2{
+    text-transform: capitalize;
+}
+
+ul{
+    color: #0056ff;
+}
+
+nav{
+    display: flex;
+    justify-content: baseline;
+    background-color:#4e80efa6;
+    padding-left: 3%;
+}
+
+.divgauche{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ulNav{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    gap: 10%;
+}
+
+.gras {
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+h1{
+    white-space: nowrap;
+    color: white;
+}
+
+.divdroite{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    background-color: #4e80efa6;
+    width: 50%;
+    padding-bottom: 5%;
+}
+
+.divgauche{
+    display: flex;
+    width: 40%;
+}
+
+.flex{
+    display: flex;
+}
+
+.pokedex{
+    margin-top: 5%;
+    color: #f3bc57;
+}
+
+.recherche{
+    margin-top: 7%;
+    background-color:#4e80efa6; 
+    width: 100%;
+    min-height: 250px;
+    text-align: center;
+}
+
+.titreGeneration{
+    color: #f3bc57;
+}
+
+.submit{
+    height: 40px;
+    width: 40%;
+}
+
+#poke{
+    height: 30px;
+    width: 40%;
+}
+
+.flexGen{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.gen{
+    height: 50px;
+    width: 20%;
+}
+
+
+
+.imageSrc {
+    display: flex;
+    flex-wrap: wrap; /* Permet de faire passer les éléments à la ligne suivante */
+  }
+
+
+.imageSrc img {
+    width: 20%; /* Répartir les images sur 5 colonnes */
+  }
+
+  .imageContainer {
+    display: flex;
+    flex-basis: 15%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    width: 20%;
+  }
+  
+  .imageContainer img {
+    width: 100%;
+  }
+  
+  .imageContainer p {
+    width: 100%;
+    text-align: center;
+  }
+
+  label{
+    color: white;
+  }
+
+  .imagePokemon{
+    margin-left: 18%;
+    margin-top: 5%;
+    width: 60%;
+    min-height: 300px;
+
+  }
+
+  .nomPoke{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+    color: #f3bc57;
+  }
+
+  .containerImg{
+    background-color: #7196e7a6;
+    margin-left: 15%;
+    margin-right: 15%;
+    min-height: 400px;
+  }
+
+  .recherche1{
+    margin-left: 15%;
+    width: 70%;
+    min-height: auto;
+  }
+
+  .flexStatistique{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+margin-left: 3%;
+  }
+
+  .largeur, .abilite{
+    flex: 1;
+  }
+
+  .hauteur, .largeur, .pv, .abilite{
+    color: white;
+  }

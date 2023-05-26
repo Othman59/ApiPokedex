@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <canvas id="myChart"></canvas>
+      </div>
+
+    <div class="flex">
+
+        <div class="divgauche">
+
+            <header>
+
+
+                <nav>
+                    <h1>POKEDEX LITE</h1>
+                    <ul class="ulNav">
+                        <a href="">
+                          <img src="image/pokémon.png" alt="imagePokemon">
+                        </a>
+                        <a href="">
+                            <p class="gras">Generation.</p>
+                        </a>
+                        <a href="">
+                            <p class="gras">Arduinome</p>
+
+                        </a>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <div class="recherche">
+
+                <h2 class="pokedex">POKEDEX LITE</h2>
+
+                <form action="" class="form">
+
+                    <label for="poke">Recherchez un Pokémon avec le nom</label>
+
+                    <br>
+                    <br>
+                    <input type="text" id="poke" placeholder="Ecrivez ici">
+
+                    <br>
+                    <br>
+
+                    <button class="submit">Envoyer</button>
+
+                </form>
+
+            </div>
+
+            <div class="recherche">
+
+                <h2 class="titreGeneration">Génération</h2>
+
+                <div class="flexGen">
+
+                </div>
+
+                <div class="flexGen1">
+
+
+                    <div class="imageSrc">
+
+
+
+                    </div>
+                </div>
+                <!-- <ul id="jokes">
+
+        </ul> -->
+
+
+            </div>
+        </div>
+
+        <!-- Division droite -->
+
+        <div class="divdroite">
+
+            <p class="nomPoke"></p>
+
+            <div class="containerImg">
+
+
+                <img src="" alt="" class="imagePokemon">
+
+            </div>
+
+            <div class="recherche recherche1">
+
+                <div class="flexStatistique">
+
+                    <p class="hauteur">Hauteur:</p>
+
+                    <p class="largeur">Largeur:</p>
+
+                </div>
+
+                <div class="flexStatistique">
+
+                    <p class="pv">Pv:</p>
+
+                    <p class="abilite">Abilité(s):</p>
+                    <p class="abilite2"></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
