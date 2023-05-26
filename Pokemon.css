@@ -1,20 +1,19 @@
 .card {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .error {
-    color: red;
-  }
-  
-  .team-pokemon {
-    background-color: lightgray;
-  }
-  
-  .chart-container {
-    width: 400px;
-    height: 400px;
-    margin-top: 20px;
-  }
-  
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.team-pokemon {
+  background-color: lightgray;
+}
+
+.chart-container {
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+}
