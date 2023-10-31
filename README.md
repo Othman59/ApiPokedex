@@ -1,11 +1,5 @@
-# Api-Pokedex
-
-## Description
-
-
-Bien sûr, voici un exemple de fichier README pour la création d'une APIPokedex. Vous pouvez personnaliser ce README en fonction de vos besoins spécifiques pour votre projet :
-
 APIPokedex
+
 APIPokedex est une API de référence pour les amateurs de Pokémon. Elle vous permet d'accéder à une vaste base de données de Pokémon, de leurs caractéristiques, de leurs capacités et bien plus encore. Cette API est conçue pour être facile à utiliser et à intégrer dans vos propres projets.
 
 Configuration de l'environnement
